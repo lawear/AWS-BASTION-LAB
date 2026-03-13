@@ -1,4 +1,4 @@
-# 🏗️ AWS Bastion Host Project
+# AWS Bastion Host Project
 
 ## Overview
 This project demonstrates how to set up a secure AWS environment using a **Bastion Host** to access private EC2 instances within a **Virtual Private Cloud (VPC)**.
@@ -7,7 +7,7 @@ The configuration ensures that private instances are **not directly accessible f
 
 ---
 
-## 🧩 Architecture Components
+## Architecture Components
 
 - **VPC** – Custom virtual network for isolated cloud resources.  
 - **Public Subnet** – Hosts the Bastion Host (jump box) with internet access.  
@@ -19,7 +19,7 @@ The configuration ensures that private instances are **not directly accessible f
 
 ---
 
-## 🧠 Step-by-Step Setup
+## Step-by-Step Setup
 
 ### 1. Create a VPC
 - Specify a CIDR block, e.g. `10.0.0.0/16`.  
