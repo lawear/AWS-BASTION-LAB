@@ -89,23 +89,4 @@ The configuration ensures that private instances are **not directly accessible f
 
 ---
 
-### 11. Connect via Bastion Host
-1. SSH into the **Bastion Host** (public instance):
- ```bash
- ssh -i "your-key.pem" ec2-user@<Bastion-Public-IP>
 
-project-root/
-├── README.md
-└── screenshots/
-    ├── architecture-diagram.png
-    ├── create-vpc.png
-    ├── create-public-subnet.png
-    ├── create-private-subnet.png
-    ├── attach-igw.png
-    ├── public-route-table.png
-    ├── private-route-table.png
-    ├── security-group.png
-    ├── public-nacl.png
-    ├── private-nacl.png
-    ├── launch-ec2.png
-    └── bastion-ssh-connection.png
